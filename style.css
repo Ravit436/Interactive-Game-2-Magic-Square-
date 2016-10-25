@@ -1,0 +1,62 @@
+.dragElement {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 5px grey;
+    border-style: outset;
+
+    color: #fff;
+    font-size: 1.5em; 
+    font-weight: 900;
+    text-align: center;
+    text-shadow:  2px 2px #000;
+    background-color: #e74c3c;
+}
+
+.dropElement {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border: 5px;
+    border-style: outset;
+}
+
+.drop-elements {
+    margin-left: 300px;
+}
+
+.drag-elements {
+    margin-right: 300px;
+}
+
+button {
+  padding: 6px 15px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(5px);
+}
+
+input {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 800;
+  padding: 2px;
+  border: 2px solid grey;
+  background-color: #3CBC8D;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magic Square</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery-1.9.1.js"></script>
+	<script src="handle.js"></script>
+</head>
+<body>
+	<h2 align="center">Magic Square</h2>
+	<div align="center">
+		Team Name : <input type="text" id="teamname"/>
+	</div><br>
+	<div class="drop-elements">
+		<div id="M00" class="dropElement droppable"></div>
+		<div id="M01" class="dropElement droppable"></div>
+		<div id="M02" class="dropElement droppable"></div>
+		<div id="M03" class="dropElement droppable"></div>
+	</div>
+	<div class="drag-elements droppable multipleChildren hasChild">
+		<div id="4" class="dragElement">4</div>
+		<div id="3" class="dragElement">3</div>
+		<div id="2" class="dragElement">2</div>
+		<div id="1" class="dragElement">1</div>
+	</div>
+	<br><br><br><br><br><br>
+
+	<div class="drop-elements">
+		<div id="M10" class="dropElement droppable"></div>
+		<div id="M11" class="dropElement droppable"></div>
+		<div id="M12" class="dropElement droppable"></div>
+		<div id="M13" class="dropElement droppable"></div>
+	</div>
+	<div class="drag-elements droppable multipleChildren hasChild">
+		<div id="8" class="dragElement">8</div>
+		<div id="7" class="dragElement">7</div>
+		<div id="6" class="dragElement">6</div>
+		<div id="5" class="dragElement">5</div>
+	</div>
+	<br><br><br><br><br><br>
+
+	<div class="drop-elements">
+		<div id="M20" class="dropElement droppable"></div>
+		<div id="M21" class="dropElement droppable"></div>
+		<div id="M22" class="dropElement droppable"></div>
+		<div id="M23" class="dropElement droppable"></div>
+	</div>
+	<div class="drag-elements droppable multipleChildren hasChild">
+		<div id="12" class="dragElement">12</div>
+		<div id="11" class="dragElement">11</div>
+		<div id="10" class="dragElement">10</div>
+		<div id="9" class="dragElement">9</div>
+	</div>
+	<br><br><br><br><br><br>
+
+	<div class="drop-elements">
+		<div id="M30" class="dropElement droppable"></div>
+		<div id="M31" class="dropElement droppable"></div>
+		<div id="M32" class="dropElement droppable"></div>
+		<div id="M33" class="dropElement droppable"></div>
+	</div>
+	<div class="drag-elements droppable multipleChildren hasChild">
+		<div id="16" class="dragElement">16</div>
+		<div id="15" class="dragElement">15</div>
+		<div id="14" class="dragElement">14</div>
+		<div id="13" class="dragElement">13</div>
+	</div>
+	<br><br><br><br><br><br>
+
+	<div class="drop-elements" style="margin-left: 700px">
+		<div>Swapper</div>
+		<div align="center" id="M44" class="dropElement droppable"></div>
+	</div>
+	<br><br><br><br><br>
+
+	<div id="submit" align="center">
+		<button id="btn" onclick="onSubmit()">Submit</button>
+	</div>
+
+</body>
+</html>
